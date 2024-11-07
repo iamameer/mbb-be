@@ -7,8 +7,8 @@ export const bookController = {
     res.json(books);
   },
 
-  getBookByTitle(req: Request, res: Response) {
-    const book = bookService.getBookByTitle(req.params.title);
+  getBookById(req: Request, res: Response) {
+    const book = bookService.getBookById(req.params.id);
     if (!book) {
       res.status(404).json({ message: 'Book not found' });
       return;
