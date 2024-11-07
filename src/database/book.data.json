@@ -1,0 +1,82 @@
+[
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "A novel set in the Roaring Twenties.",
+    "price": 10.99,
+    "tags": ["classic", "novel", "American literature"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174001",
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A dystopian novel about totalitarianism.",
+    "price": 8.99,
+    "tags": ["dystopian", "political", "classic"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174002",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A novel about racial injustice in the Deep South.",
+    "price": 12.99,
+    "tags": ["classic", "historical", "American literature"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174003",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "description": "A romantic novel that critiques the British landed gentry.",
+    "price": 9.99,
+    "tags": ["romance", "classic", "British literature"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174004",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "description": "A story about teenage angst and alienation.",
+    "price": 11.99,
+    "tags": ["classic", "coming-of-age", "American literature"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174005",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "description": "A fantasy novel about the adventures of Bilbo Baggins.",
+    "price": 14.99,
+    "tags": ["fantasy", "adventure", "classic"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174006",
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "description": "A dystopian novel about a future where books are banned.",
+    "price": 10.49,
+    "tags": ["dystopian", "science fiction", "classic"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174007",
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "description": "A novel about the voyage of the whaling ship Pequod.",
+    "price": 13.50,
+    "tags": ["classic", "adventure", "American literature"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174008",
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "description": "A historical novel that intertwines the lives of several families.",
+    "price": 15.99,
+    "tags": ["historical", "classic", "Russian literature"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174009",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "A novel about a shepherd's journey to find his personal legend.",
+    "price": 9.99,
+    "tags": ["philosophical", "adventure", "inspirational"]
+  }
+]
