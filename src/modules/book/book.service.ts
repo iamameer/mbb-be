@@ -1,5 +1,6 @@
 import { readBooks, writeBooks } from '../../database/db.helper';
 import { Book } from './book.interface';
+import { v4 as uuidv4 } from 'uuid';
 
 export const bookService = {
   getAllBooks(): Book[] {
@@ -13,9 +14,14 @@ export const bookService = {
 
   createBook(book: Book): Book {
     const books = readBooks();
-    books.push(book);
+    const newBook = {
+      ...book,
+      id: uuidv4(),
+      image: 'https://picsum.photos/id/24/300/200',
+    };
+    books.push(newBook);
     writeBooks(books);
-    return book;
+    return newBook;
   },
 
   updateBook(id: string, updatedBook: Partial<Book>): Book | undefined {
