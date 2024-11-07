@@ -128,16 +128,5 @@
       "inspirational"
     ],
     "image": "https://picsum.photos/id/24/300/200"
-  },
-  {
-    "title": "test",
-    "author": "test",
-    "description": "test",
-    "price": 0,
-    "tags": [
-      "test"
-    ],
-    "id": "4e5bb732-d7e1-4576-8590-0fb4b9c28ffb",
-    "image": "https://picsum.photos/id/24/300/200"
   }
 ]

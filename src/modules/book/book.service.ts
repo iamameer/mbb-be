@@ -36,10 +36,10 @@ export const bookService = {
 
   deleteBook(id: string): boolean {
     let books = readBooks();
-    const index = books.findIndex((book) => book.id === id);
+    const index = books.findIndex((book) => book.id === id.split('=')[1]);
     if (index === -1) return false;
 
-    books = books.filter((book) => book.id !== id);
+    books = books.filter((book) => book.id !== id.split('=')[1]);
     writeBooks(books);
     return true;
   },
