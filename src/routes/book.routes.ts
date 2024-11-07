@@ -7,7 +7,7 @@ const bookRouter = express.Router();
 bookRouter.get('/', bookController.getAllBooks);
 bookRouter.get('/:id', bookController.getBookById);
 bookRouter.post('/', bookController.createBook);
-bookRouter.put('/:id', bookController.updateBook);
+bookRouter.patch('/:id', bookController.updateBook);
 bookRouter.delete('/:id', bookController.deleteBook);
 
 // Reset to initial data

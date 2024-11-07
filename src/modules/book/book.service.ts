@@ -20,7 +20,7 @@ export const bookService = {
 
   updateBook(id: string, updatedBook: Partial<Book>): Book | undefined {
     const books = readBooks();
-    const index = books.findIndex((book) => book.id === id);
+    const index = books.findIndex((book) => book.id === id.split('=')[1]);
     if (index === -1) return undefined;
 
     books[index] = { ...books[index], ...updatedBook };
