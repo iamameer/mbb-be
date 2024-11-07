@@ -6,9 +6,9 @@ export const bookService = {
     return readBooks();
   },
 
-  getBookById(id: string): Book | undefined {
+  getBookByTitle(title: string): Book | undefined {
     const books = readBooks();
-    return books.find((book) => book.id === id);
+    return books.find((book) => book.title === title);
   },
 
   createBook(book: Book): Book {

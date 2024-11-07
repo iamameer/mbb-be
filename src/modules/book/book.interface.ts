@@ -5,6 +5,7 @@ export interface Book {
   description?: string;
   price: number;
   tags?: string[];
+  image?: string;
 }
 
 export interface BookCreate {
@@ -13,4 +14,5 @@ export interface BookCreate {
   description?: string;
   price: number;
   tags?: string[];
+  image?: string;
 }

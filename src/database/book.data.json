@@ -5,7 +5,8 @@
     "author": "F. Scott Fitzgerald",
     "description": "A novel set in the Roaring Twenties.",
     "price": 10.99,
-    "tags": ["classic", "novel", "American literature"]
+    "tags": ["classic", "novel", "American literature"],
+    "image": "https://picsum.photos/id/24/300/200"
   },
   {
     "id": "123e4567-e89b-12d3-a456-426614174001",
@@ -13,7 +14,8 @@
     "author": "George Orwell",
     "description": "A dystopian novel about totalitarianism.",
     "price": 8.99,
-    "tags": ["dystopian", "political", "classic"]
+    "tags": ["dystopian", "political", "classic"],
+    "image": "https://picsum.photos/id/24/300/200"
   },
   {
     "id": "123e4567-e89b-12d3-a456-426614174002",
@@ -21,7 +23,8 @@
     "author": "Harper Lee",
     "description": "A novel about racial injustice in the Deep South.",
     "price": 12.99,
-    "tags": ["classic", "historical", "American literature"]
+    "tags": ["classic", "historical", "American literature"],
+    "image": "https://picsum.photos/id/24/300/200"
   },
   {
     "id": "123e4567-e89b-12d3-a456-426614174003",
@@ -29,7 +32,8 @@
     "author": "Jane Austen",
     "description": "A romantic novel that critiques the British landed gentry.",
     "price": 9.99,
-    "tags": ["romance", "classic", "British literature"]
+    "tags": ["romance", "classic", "British literature"],
+    "image": "https://picsum.photos/id/24/300/200"
   },
   {
     "id": "123e4567-e89b-12d3-a456-426614174004",
@@ -37,7 +41,8 @@
     "author": "J.D. Salinger",
     "description": "A story about teenage angst and alienation.",
     "price": 11.99,
-    "tags": ["classic", "coming-of-age", "American literature"]
+    "tags": ["classic", "coming-of-age", "American literature"],
+    "image": "https://picsum.photos/id/24/300/200"
   },
   {
     "id": "123e4567-e89b-12d3-a456-426614174005",
@@ -45,7 +50,8 @@
     "author": "J.R.R. Tolkien",
     "description": "A fantasy novel about the adventures of Bilbo Baggins.",
     "price": 14.99,
-    "tags": ["fantasy", "adventure", "classic"]
+    "tags": ["fantasy", "adventure", "classic"],
+    "image": "https://picsum.photos/id/24/300/200"
   },
   {
     "id": "123e4567-e89b-12d3-a456-426614174006",
@@ -53,7 +59,8 @@
     "author": "Ray Bradbury",
     "description": "A dystopian novel about a future where books are banned.",
     "price": 10.49,
-    "tags": ["dystopian", "science fiction", "classic"]
+    "tags": ["dystopian", "science fiction", "classic"],
+    "image": "https://picsum.photos/id/24/300/200"
   },
   {
     "id": "123e4567-e89b-12d3-a456-426614174007",
@@ -61,7 +68,8 @@
     "author": "Herman Melville",
     "description": "A novel about the voyage of the whaling ship Pequod.",
     "price": 13.50,
-    "tags": ["classic", "adventure", "American literature"]
+    "tags": ["classic", "adventure", "American literature"],
+    "image": "https://picsum.photos/id/24/300/200"
   },
   {
     "id": "123e4567-e89b-12d3-a456-426614174008",
@@ -69,7 +77,8 @@
     "author": "Leo Tolstoy",
     "description": "A historical novel that intertwines the lives of several families.",
     "price": 15.99,
-    "tags": ["historical", "classic", "Russian literature"]
+    "tags": ["historical", "classic", "Russian literature"],
+    "image": "https://picsum.photos/id/24/300/200"
   },
   {
     "id": "123e4567-e89b-12d3-a456-426614174009",
@@ -77,6 +86,7 @@
     "author": "Paulo Coelho",
     "description": "A novel about a shepherd's journey to find his personal legend.",
     "price": 9.99,
-    "tags": ["philosophical", "adventure", "inspirational"]
+    "tags": ["philosophical", "adventure", "inspirational"],
+    "image": "https://picsum.photos/id/24/300/200"
   }
 ]

@@ -5,7 +5,7 @@ import { writeBooks } from '../database/db.helper';
 const bookRouter = express.Router();
 
 bookRouter.get('/', bookController.getAllBooks);
-bookRouter.get('/:id', bookController.getBookById);
+bookRouter.get('/:title', bookController.getBookByTitle);
 bookRouter.post('/', bookController.createBook);
 bookRouter.put('/:id', bookController.updateBook);
 bookRouter.delete('/:id', bookController.deleteBook);

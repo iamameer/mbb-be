@@ -4,6 +4,7 @@ import { log } from './utils/logger';
 
 const PORT = process.env.PORT || 3000;
 
+const cors = require('cors');
 const app = express();
 app.use(express.json());
 
@@ -12,6 +13,8 @@ app.use((req, res, next) => {
   log(req.method, `${req.originalUrl}`);
   next();
 });
+
+app.use(cors());
 
 // Root route
 app.use('/status', (req, res) => {
